@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layoutDirection="rtl">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:id="@+id/appBar_main">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mosque02"
+            android:layout_gravity="center"
+            app:tint="@color/white"/>
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           />
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlayExtended"
+        android:layout_width="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@id/toolbar_main"
+        app:layout_anchorGravity="center|bottom"
+        android:textColor="@color/black"
+        app:icon="@drawable/baseline_search_24"
+        android:text="@string/search"
+        android:backgroundTint="@color/white"
+        app:iconTint="@color/black"
+        />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/azkar_mainmenu"
+            android:icon="@drawable/book_blank"
+            android:title="@string/azkar" />
+        <item
+            android:id="@+id/zekr_mainmenu"
+            android:icon="@drawable/asdf_1_"
+            android:title="@string/zekr_shomar" />
+
+        <item
+            android:id="@+id/setting_mainmenu"
+            android:icon="@drawable/gear"
+            android:title="@string/setting" />
+</menu>

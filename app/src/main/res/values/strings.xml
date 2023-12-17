@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">پناهگاه مسلمان</string>
+    <string name="azkar">دعاها</string>
+    <string name="zekr_shomar">ذِکر شمار</string>
+    <string name="azan">اذان</string>
+    <string name="setting">تنظیمات</string>
+    <string name="search">جستجو در پناهگاه مسلمان</string>
+    <string name="all_prayers">همه دعاها</string>
+    <string name="day_night">روز و شب</string>
+    <string name="house_family">خانه و خانواده</string>
+    <string name="food_drink">غذا و نوشیدنی</string>
+    <string name="joy_fear">شادی و ترس</string>
+    <string name="travel">سفر</string>
+    <string name="pray">وضو و نماز</string>
+    <string name="prays">تسبیح</string>
+    <string name="haj">حج و عمره</string>
+    <string name="etiquette">آداب معاشرت</string>
+    <string name="nature">طبیعت</string>
+    <string name="illness_funerals">بیماری و تشییع جنازه</string>
+</resources>
